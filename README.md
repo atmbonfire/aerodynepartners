@@ -1,40 +1,42 @@
-# Aerodyne Partners Homepage — Version 5
+# Aerodyne Partners Homepage — Version 6
 
-Version 5 is built from the uploaded Version 4 project and includes a broader production-oriented design refresh.
+This build closely follows the approved final homepage mockup.
 
-## Major Improvements
+## Included refinements
 
-- Rebuilt the upper-left logo as a true horizontal lockup
-  - Emblem on the left
-  - Company name on the right
-  - No tagline in the logo
-- Improved logo proportions relative to the header and navigation
-- Created a transparent emblem-only PNG for sharper placement
-- Refined header height and navigation spacing
-- Added a neutral, executive hero graphic with layered geometric panels
-- Kept the hero non-aviation-themed
-- Updated hero and About messaging for a more strategic, federal-contractor tone
-- Reused the horizontal brand lockup in the footer
-- Added responsive behavior for desktop, tablet, and mobile
+- Larger approved Aerodyne Partners header logo
+- Correct emblem
+- Exact approved AERODYNE / PARTNERS artwork
+- Copper horizontal rules around PARTNERS
+- No tagline inside the header logo
+- Misty mountain hero image
+- Four-value strip
+- About section with mountain image
+- Navy Core Capabilities band
+- Contact call-to-action strip
+- Expanded corporate footer
+- Responsive desktop, tablet, and mobile layouts
 
-## Uploading to GitHub
+## Uploading to GitHub Pages
 
-1. Extract the ZIP.
+1. Extract this ZIP file.
 2. Upload all extracted files and folders to the root of your GitHub repository.
-3. Replace the existing Version 4 files when prompted.
-4. Confirm `index.html` remains at the repository root.
-5. Commit the upload.
+3. Replace the existing homepage files when prompted.
+4. Confirm `index.html` is at the repository root.
+5. Commit the changes.
 
 GitHub Pages should update automatically after the commit.
 
-## Files
+## Placeholder information
 
-- `index.html`
-- `assets/css/style.css`
-- `assets/js/main.js`
-- `assets/images/aerodyne-emblem.png`
-- `assets/images/aerodyne-logo.jpg`
-- `assets/images/favicon.png`
-- `assets/images/about-partnership.jpg`
+The following items are intentionally marked for later completion:
 
-The original full logo image is retained for reference, but the live header and footer use the emblem plus CSS-rendered wordmark.
+- Telephone number
+- LinkedIn URL
+- UEI
+- CAGE code
+- SAM registration status
+
+## Image note
+
+The mountain images were extracted from the approved AI-generated homepage mockup so the live implementation would closely match the selected visual concept.
