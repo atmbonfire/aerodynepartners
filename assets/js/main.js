@@ -15,7 +15,7 @@ if (navToggle && primaryNav) {
   });
 }
 
-const year = document.getElementById("current-year");
-if (year) {
-  year.textContent = new Date().getFullYear();
+const currentYear = document.getElementById("current-year");
+if (currentYear) {
+  currentYear.textContent = new Date().getFullYear();
 }
