@@ -1,34 +1,40 @@
-# Aerodyne Partners Homepage — Version 2
+# Aerodyne Partners Homepage — Version 3
 
-Version 2 includes the recommended homepage refinements:
+This version intentionally follows the visual direction of the approved homepage mockup.
 
-- Fixed the header logo so it scales naturally without cropping
-- Increased logo size and improved navigation spacing
-- Refined the hero into a more executive government-contractor style
-- Reduced the “boxed card” look
-- Simplified capability and value presentation
-- Enlarged the mission statement
-- Added a “Why Aerodyne” section
-- Improved footer navigation
+## Major Changes
+
+- Much larger logo in the upper-left header
+- White executive-style navigation bar
+- Aircraft-wing and mountain hero image
+- Strong left-aligned headline and copper call-to-action
+- Four-value icon strip
+- Split About section with partnership imagery
+- Navy Core Capabilities band
+- Expanded footer with company information and contact placeholders
+- Responsive layout for tablets and phones
 
 ## Uploading to GitHub
 
-1. Extract the ZIP file.
+1. Extract this ZIP file.
 2. Upload all extracted files and folders to the root of your GitHub repository.
-3. Replace the existing Version 1 files when GitHub prompts you.
-4. Confirm `index.html` remains at the repository root.
-5. Commit the changes.
+3. Replace the existing homepage files when prompted.
+4. Make sure `index.html` remains at the top level.
+5. Commit the upload.
 
-GitHub Pages should update automatically after the commit is published.
+GitHub Pages normally refreshes within a few minutes.
 
-## File Structure
+## Important Placeholder Information
 
-- `index.html`
-- `assets/css/style.css`
-- `assets/js/main.js`
-- `assets/images/aerodyne-logo.jpg`
-- `assets/images/favicon.png`
+The following footer items are deliberately marked for later completion:
 
-## Note
+- UEI
+- CAGE code
+- SAM registration status
+- LinkedIn URL
 
-The current logo artwork is preserved as the approved image, but the browser now displays it with `object-fit: contain` and natural proportions, eliminating the cutoff problem.
+The email address is currently set to `info@aerodynepartners.com`.
+
+## Image Note
+
+The Version 3 hero and About images were extracted from the user-provided mockup so the working website could closely reproduce the intended visual direction. They should eventually be replaced with original or properly licensed production images.
