@@ -1,40 +1,27 @@
-# Aerodyne Partners Homepage — Version 3
+# Aerodyne Partners Homepage — Version 4
 
-This version intentionally follows the visual direction of the approved homepage mockup.
+This revision responds to two design changes:
 
-## Major Changes
-
-- Much larger logo in the upper-left header
-- White executive-style navigation bar
-- Aircraft-wing and mountain hero image
-- Strong left-aligned headline and copper call-to-action
-- Four-value icon strip
-- Split About section with partnership imagery
-- Navy Core Capabilities band
-- Expanded footer with company information and contact placeholders
-- Responsive layout for tablets and phones
+- The header and footer logo now show only the emblem and company name. The tagline has been removed from the image.
+- The hero no longer uses aircraft or aviation imagery. It now uses a neutral executive background with subtle geometric and mission-oriented design elements.
 
 ## Uploading to GitHub
 
-1. Extract this ZIP file.
+1. Extract the ZIP file.
 2. Upload all extracted files and folders to the root of your GitHub repository.
-3. Replace the existing homepage files when prompted.
-4. Make sure `index.html` remains at the top level.
-5. Commit the upload.
+3. Replace the existing Version 3 files.
+4. Keep `index.html` at the repository root.
+5. Commit the changes.
 
-GitHub Pages normally refreshes within a few minutes.
+GitHub Pages should refresh automatically after the commit is published.
 
-## Important Placeholder Information
+## Files
 
-The following footer items are deliberately marked for later completion:
+- `index.html`
+- `assets/css/style.css`
+- `assets/js/main.js`
+- `assets/images/aerodyne-logo.jpg`
+- `assets/images/favicon.png`
+- `assets/images/about-partnership.jpg`
 
-- UEI
-- CAGE code
-- SAM registration status
-- LinkedIn URL
-
-The email address is currently set to `info@aerodynepartners.com`.
-
-## Image Note
-
-The Version 3 hero and About images were extracted from the user-provided mockup so the working website could closely reproduce the intended visual direction. They should eventually be replaced with original or properly licensed production images.
+The previous `hero-aircraft.jpg` file is no longer needed and has been removed.
