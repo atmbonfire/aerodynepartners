@@ -366,6 +366,15 @@ a {
   text-transform: uppercase;
 }
 
+.capabilities-intro {
+  max-width: 900px;
+  margin: 1.25rem auto 0;
+  color: rgba(255,255,255,0.82);
+  font-size: 1rem;
+  line-height: 1.7;
+  text-align: center;
+}
+
 .capability-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -755,5 +764,162 @@ a {
   *::before,
   *::after {
     transition: none !important;
+  }
+}
+
+/* Version 7: Why Aerodyne and Our Approach */
+.eyebrow {
+  margin: 0 0 0.55rem;
+  color: var(--copper-dark);
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.why-section {
+  padding: 5.5rem 0;
+  background: var(--surface);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  scroll-margin-top: 110px;
+}
+
+.why-layout {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: clamp(3rem, 7vw, 7rem);
+  align-items: start;
+}
+
+.why-heading .section-rule {
+  margin-top: 0;
+}
+
+.why-heading h2 {
+  margin: 0;
+  color: var(--navy-deep);
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: clamp(2.15rem, 4vw, 3.65rem);
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+}
+
+.why-lead {
+  margin: 1.5rem 0 0;
+  color: var(--navy);
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.why-copy {
+  padding-top: 0.35rem;
+}
+
+.why-copy p {
+  margin: 0 0 1.25rem;
+  color: #354459;
+  font-size: 1.08rem;
+}
+
+.approach-section {
+  padding: 5.2rem 0;
+  background: white;
+  scroll-margin-top: 110px;
+}
+
+.light-heading h2 {
+  color: var(--navy-deep);
+}
+
+.approach-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.35rem;
+  margin-top: 2.2rem;
+}
+
+.approach-card {
+  position: relative;
+  min-height: 285px;
+  padding: 2rem 1.65rem;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: #fbfbfa;
+  box-shadow: 0 12px 28px rgba(6, 26, 47, 0.07);
+}
+
+.approach-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 4px;
+  background: var(--copper);
+}
+
+.approach-number {
+  color: rgba(189,101,41,0.45);
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.approach-card h3 {
+  margin: 1.2rem 0 0.8rem;
+  color: var(--navy-deep);
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 1.08rem;
+  text-transform: uppercase;
+}
+
+.approach-card p {
+  margin: 0;
+  color: #415064;
+}
+
+.approach-statement {
+  max-width: 850px;
+  margin: 3rem auto 0;
+  padding-top: 2rem;
+  color: var(--navy-deep);
+  border-top: 1px solid var(--line);
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: clamp(1.25rem, 2.4vw, 1.75rem);
+  font-weight: 600;
+  line-height: 1.45;
+  text-align: center;
+}
+
+#about, #capabilities, #contact {
+  scroll-margin-top: 110px;
+}
+
+@media (max-width: 1080px) {
+  .why-layout {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .approach-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 680px) {
+  .why-section,
+  .approach-section {
+    padding: 4rem 0;
+  }
+
+  .approach-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .approach-card {
+    min-height: 0;
   }
 }
